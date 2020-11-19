@@ -93,9 +93,20 @@ nav li {
     flex-direction: column;
 }
 
-.icon-navigation div:hover {
+.icon-navigation a {
+    text-decoration: none;
+}
+
+.icon-navigation a:link {
+    color: #F1FAF7;
+}
+
+.icon-navigation a:visited {
+    color: #F1FAF7;
+}
+
+.icon-navigation a:hover {
     color: #457B9D;
-    cursor: pointer;
 }
 
 .icon-navigation i {
