@@ -65,7 +65,10 @@ nav li {
 	width: 300px; height: 700px;
 	padding: 15px;
 	margin: 15px 0;
-	border-radius: 25px; 
+	border-radius: 25px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 }
 		
 .card .imgContainer { width: 100%;
@@ -88,7 +91,7 @@ nav li {
 				  
 .description .buttonGroup { display: flex;
 			    justify-content: space-between;
-			    margin-top: 15px;
+			    margin-top: 40px;
 			     
 }
 						
