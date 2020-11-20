@@ -81,9 +81,9 @@ nav li {
 		      color: #444; 
 }
 				 
-.description .price { font-size: 22px;
-		      font-weight: 300;
-		      color: #444;
+.price { font-size: 22px;
+	 font-weight: 300;
+	 color: #444;
 }
 				  
 .description .buttonGroup { display: flex;
