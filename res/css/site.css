@@ -23,12 +23,15 @@ nav {
 }
 
 nav a {
+    display: block;
     height: 100%;
     width: 100%;
     text-decoration: none;
+    padding: 10px;
 }
 
 nav a:link {
+    display: block;
     color: #1D3557;
 }
 
@@ -105,25 +108,31 @@ nav li.active a{
 
 .card .card-contents img {
     max-width: 100%;
-    margin: 10px
 }
 
 .card .card-contents {
     display: flex;
     justify-content: center;
-    text-align: justify;
+    text-align: left;
     height: 100%;
     flex-flow: row;
     flex-wrap: wrap;
 }
 
+.card .card-contents .item-description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 .card .card-contents .item-description div {
     margin: 10px;
+    width: 100%;
 }
 
-.card .card-contents .item-title,.item-price{
+.card .card-contents .item-title, .card .card-contents .item-price, .card .item-description div:last-child {
     text-align: center;
 }
 
@@ -147,6 +156,7 @@ nav li.active a{
     padding: 7px 15px;
     background-color: #fb641b;
     cursor: pointer;
+    height: 50px;
 }
 
 .card .card-contents button:hover {
@@ -274,6 +284,10 @@ footer {
         width: 5%;
     }
 
+    nav a {
+        padding: 5px 10px;
+    }
+
     nav ul {
         display: flex;
         flex-direction: column;
@@ -333,6 +347,10 @@ footer {
         padding: 40px 0 0 40px;
     }
 
+    nav a {
+        padding: 10px 20px;
+    }
+
     nav ul {
         flex-flow: row nowrap;
         justify-content: center;
@@ -341,7 +359,6 @@ footer {
 
     nav ul li {
         width: 10em;
-        padding: 10px 20px;
         margin: 0 1em;
     }
 
