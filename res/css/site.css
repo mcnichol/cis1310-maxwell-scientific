@@ -67,6 +67,7 @@ nav li.active {
 nav li.active a {
     color: #ffffff;
 }
+
 .topic-summary {
     font-size: 1.5em;
     margin: 0 8em;
@@ -77,7 +78,7 @@ section {
     margin: 2em 0;
 }
 
-section.news, .customer-comments{
+section.news, .customer-comments {
     background-color: white;
     border-radius: 5px;
     color: #1D3557;
@@ -100,7 +101,7 @@ section.news, .customer-comments{
 }
 
 
-.customer-comments-main .user-name, .customer-comments-main .user-location{
+.customer-comments-main .user-name, .customer-comments-main .user-location {
     margin-left: 1em;
     font-weight: bold;
     font-size: .9em;
