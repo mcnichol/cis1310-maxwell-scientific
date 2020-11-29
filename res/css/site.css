@@ -60,12 +60,31 @@ nav ul {
     padding-inline-start: 0;
 }
 
-nav li.active{
+nav li.active {
     background-color: #1D3557;
 }
 
-nav li.active a{
+nav li.active a {
     color: #ffffff;
+}
+.topic-summary {
+    font-size: 1.5em;
+    margin: 0 8em;
+    text-align: justify;
+}
+
+section {
+    margin: 1em;
+}
+
+section.news{
+    background-color: white;
+    border-radius: 5px;
+    color: #1D3557;
+    font-size: 1.25em;
+    margin: 0 8em;
+    text-align: justify;
+    padding: .5em 1em;
 }
 
 .container {
@@ -98,11 +117,11 @@ nav li.active a{
     border-radius: .4em;
 }
 
-.card .deals::after{
+.card .deals::after {
     content: "March Special!";
 }
 
-.card .deals i{
+.card .deals i {
     margin: 0 .5em;
 }
 
@@ -248,7 +267,7 @@ nav li.active a{
     padding: 0;
 }
 
-.center{
+.center {
     margin: 20px 10px;
 }
 
@@ -269,13 +288,36 @@ nav li.active a{
 }
 
 footer {
-    height: 100px;
+    background-color: #1D3557;
+    color: #FFFFFF;
+    padding: 2em;
+}
+
+footer .contents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 1em;
+}
+
+footer .contents .contact-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+footer .contents .contact-info a {
+    color: #FFFFFF;
+}
+
+footer .copyright {
     text-align: center;
-    color: #1D3557;
 }
 
 @media (min-width: 1024px) {
-    .center{
+    .center {
         width: 90%;
     }
 
@@ -299,7 +341,7 @@ footer {
         margin: 0 2.5em;
     }
 
-    nav li.active{
+    nav li.active {
         border-radius: 7px;
     }
 
@@ -315,6 +357,9 @@ footer {
         display: flex;
     }
 
+    footer .contents {
+        justify-content: space-between;
+    }
 
     #main-banner-deal {
         display: block;
@@ -362,7 +407,7 @@ footer {
         margin: 0 1em;
     }
 
-    nav li.active{
+    nav li.active {
         border-radius: 7px 7px 0 0;
     }
 
