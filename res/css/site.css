@@ -74,17 +74,40 @@ nav li.active a {
 }
 
 section {
-    margin: 1em;
+    margin: 2em 0;
 }
 
-section.news{
+section.news, .customer-comments{
     background-color: white;
     border-radius: 5px;
     color: #1D3557;
     font-size: 1.25em;
     margin: 0 8em;
-    text-align: justify;
+    text-align: left;
     padding: .5em 1em;
+}
+
+.customer-comments-main div {
+    display: flex;
+    flex-flow: column;
+    font-style: italic;
+    margin: 1em 2em;
+    text-align: justify;
+}
+
+.customer-comments-main .user-comment {
+    margin: .5em 0;
+}
+
+
+.customer-comments-main .user-name, .customer-comments-main .user-location{
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+.customer-comments-main .user-location {
+    font-size: .8em;
 }
 
 .container {
@@ -93,6 +116,7 @@ section.news{
     justify-content: space-around;
     background-color: #1d3557;
     flex-wrap: wrap;
+    margin: 3em 0;
 }
 
 .card {
