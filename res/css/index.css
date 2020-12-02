@@ -1,0 +1,60 @@
+
+/** index.html specific css**/
+#to-the-max {
+    background-image: url("../img/science-to-the-max.jpg");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    display: none;
+    padding: 10px;
+    margin: 50px;
+}
+
+.main-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-intro i {
+    height: 180px;
+    width: 600px;
+}
+
+.icon-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.icon-navigation span {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-navigation a {
+    text-decoration: none;
+}
+
+.icon-navigation a:link {
+    color: #F1FAF7;
+}
+
+.icon-navigation a:visited {
+    color: #F1FAF7;
+}
+
+.icon-navigation a:hover {
+    color: #457B9D;
+}
+
+.icon-navigation i {
+    padding: 20px;
+    margin: 20px;
+}
+
+#main-banner-deal {
+    width: 100%;
+    height: auto;
+    display: none;
+}
